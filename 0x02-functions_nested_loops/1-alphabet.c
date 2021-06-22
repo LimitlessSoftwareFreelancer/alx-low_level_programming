@@ -2,8 +2,8 @@
 
 int main () 
 {
-	char *c = "abcdefghijklmnopqrstuvqxyz";
-	while (*c != '\0') 
+	char *c = "a";
+	while (*c <= char("z")) 
 	{
 		_putchar(*c++);
 	}

@@ -1,4 +1,3 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 int main(void)
@@ -7,7 +6,11 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);
+		if (ch = 'q' || 'e')
+		{
+			ch++;
+		}
+		else putchar(ch);
 	}
 
 	return (0);

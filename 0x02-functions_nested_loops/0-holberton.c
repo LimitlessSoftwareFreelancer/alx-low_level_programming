@@ -2,7 +2,10 @@
 
 /**
  * prints Holberton using puthchar
- * declared in _putchar.c
+ * @ch: moves through the string Holberton in an array
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
 int main(void)
 {

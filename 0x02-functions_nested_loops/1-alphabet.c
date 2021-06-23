@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * main - check code for ALX School Students.
- * print_alphabet prints the alphabet in lowercase. I chose not to use ascii as C recognizes this already
+ * print_alphabet prints the alphabet in lowercase. I chose not to use ascii
  * Return Always 0.
  */
 void print_alphabet(void)

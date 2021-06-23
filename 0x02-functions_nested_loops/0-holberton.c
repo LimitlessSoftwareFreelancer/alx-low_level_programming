@@ -11,5 +11,6 @@ int main ()
 	_putchar(ch[a]);
 	a++;
 	}
+	_putchar('\n');
 	return (0);
 }

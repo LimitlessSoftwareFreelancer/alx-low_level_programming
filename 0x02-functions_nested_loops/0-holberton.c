@@ -1,12 +1,12 @@
 #include "holberton.h"
 
-int main () 
+int main (void)
 {
 
 	char ch[] = "Holberton";
 	int a = 0;
 
-	while (a < 9) 
+	while (a < 9)
 	{
 	_putchar(ch[a]);
 	a++;

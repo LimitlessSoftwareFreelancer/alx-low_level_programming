@@ -1,17 +1,15 @@
 #include "holberton.h"
-
-int main () 
+/**
+ * main - check code for ALX School Students.
+ * 
+ * Return Always 0.
+ */
+void print_alphabet(void) 
 {
-	char *c = "a";
-	while (*c <= char("z")) 
+	char a;
+	for (a='a';a<='z';a++)
 	{
-		_putchar(*c++);
+	_putchar(a);
 	}
-	if (*c == '\0') 
-	{
-		char *c = "\n";
-		_putchar(*c);
-	}
-
-	return (0);
+	_putchar('\n');
 }

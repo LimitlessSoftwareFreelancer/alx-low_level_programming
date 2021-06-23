@@ -1,5 +1,9 @@
 #include "holberton.h"
 
+/**
+ * prints Holberton using puthchar
+ * declared in _putchar.c
+ */
 int main(void)
 {
 

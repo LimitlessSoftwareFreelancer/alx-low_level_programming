@@ -1,7 +1,7 @@
-#ifndef "holberton.h"
-#define "holberton.h"
-#include <unistd.h>
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 
+#include <unistd.h>
 /**
  *  * _putchar - writes the character c to stdout
  *   * @c: The character to print

@@ -3,14 +3,13 @@
 int main () 
 {
 
-	char *c = "Holberton";
-	while (*c != '\0') {
-		_putchar(*c++);
-	}
-	if (*c == '\0') {
-		char *c = "\n";
-		_putchar(*c);
-	}
+	char ch[] = "Holberton";
+	int a = 0;
 
+	while (a < 9) 
+	{
+	_putchar(ch[a]);
+	a++;
+	}
 	return (0);
 }

@@ -7,9 +7,9 @@
 
 int main (void)
 {
-	if (&positive_or_negative(i) == '0')
+	if (positive_or_negative(i) == '0')
 	{
-		printf("%d is zero\n");
+		printf("%d is zero\n", &positive_or_negative(i));
 	}
 
 	return (0);

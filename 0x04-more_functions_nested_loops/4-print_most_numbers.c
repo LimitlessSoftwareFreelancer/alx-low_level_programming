@@ -12,11 +12,11 @@ void print_numbers(void)
 	{
 		if ((a == 50) || (a == 52))
 		{
-		continue;
+			a++;
 		}
 		else
 		{
-		_putchar(a);
+			_putchar(a);
 		}
 	}
 	_putchar('\n');

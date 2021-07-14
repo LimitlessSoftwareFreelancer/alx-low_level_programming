@@ -37,4 +37,8 @@ char *_strpbrk(char *s, char *accept);
 
 char *_strstr(char *haystack, char *needle);
 
+int print_args(int argc, char *argv[]);
+
+int number_of_args(int argc, char** argv);
+
 #endif /*HOLBERTON_H*/

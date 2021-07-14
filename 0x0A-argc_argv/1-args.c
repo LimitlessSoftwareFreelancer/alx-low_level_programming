@@ -13,7 +13,7 @@ int main(int argc, char** argv)
 	
 	if (argc > 0)
 	{
-		while (a < argv[argc-1])
+		while (a < *argv[argc-1])
 		{
 			a++;
 		}

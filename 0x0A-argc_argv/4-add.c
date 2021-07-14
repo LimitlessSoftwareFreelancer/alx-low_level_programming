@@ -17,15 +17,15 @@ int add_num(int argc, char *argv[])
 
 		for (i = 1; i < argc; i++)
 			{
-			if (argv[i] == '1' && argv[i+1] => '0')
+			if (*argv[i] >= '1' && *argv[i+1] => '0')
 			{
 				printf("Error\n");
 			}
-			else if (argv[i]!>0 && argv[i]!<'9')
+			else if (*argv[i] !> '0' && *argv[i] !< '9')
 			{
 				printf("0\n");
 			}
-			else 
+			else
 			{
 				sum = p + q;
 

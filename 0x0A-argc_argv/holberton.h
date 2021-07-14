@@ -43,4 +43,6 @@ int main(int argc, char** argv);
 
 int add(int argc, char *argv[]);
 
+int mulligan(int argc, char *argv[]);
+
 #endif /*HOLBERTON_H*/

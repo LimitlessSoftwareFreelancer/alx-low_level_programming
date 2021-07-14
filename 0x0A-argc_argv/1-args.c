@@ -7,7 +7,7 @@
  *
  * Return: Always 0.
  */
-int number_of_args(int argc, char** argv)
+int main(int argc, char** argv)
 {
 	int a;
 	

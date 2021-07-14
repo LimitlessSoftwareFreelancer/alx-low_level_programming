@@ -7,7 +7,7 @@
  *
  * Return: Always 0.
  */
-int print_args(int argc, char *argv[])
+int main (int argc, char *argv[])
 {
 	int a;
 	
